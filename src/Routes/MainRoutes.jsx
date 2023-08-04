@@ -11,7 +11,7 @@ import {
   FigurasArmomicas,
   TonicasImplicitas,
 } from "../Pages";
-import { Menu } from "../Components";
+import { Menu } from "../Components/Principales";
 
 export const MainRoutes = () => {
   return (

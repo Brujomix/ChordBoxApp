@@ -1,3 +1,4 @@
 .Circulo_quintas{
-    @include flexible(column, center, center, 0em, wrap)
+    @include flexible(column, center, center, 0em, wrap);
+    padding:1em;
 }
