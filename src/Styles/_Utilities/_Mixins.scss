@@ -1,0 +1,8 @@
+@mixin flexible($dir, $jc, $ai, $gp, $wrp){
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gp;
+    flex-wrap: $wrp;
+}

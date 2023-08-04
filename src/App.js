@@ -1,10 +1,11 @@
-
+import { MainRoutes } from "./Routes";
+import { MainLayout } from "./Layout";
 
 function App() {
   return (
-    <div className="App">
-      <h1>my app chrod BOX</h1>
-    </div>
+    <MainLayout>
+      <MainRoutes/>
+    </MainLayout>
   );
 }
 

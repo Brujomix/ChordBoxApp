@@ -1,0 +1,19 @@
+/* Bootstrap */
+@import '~bootstrap/scss/bootstrap';
+/* Reset */
+@import "./_Reset/Reset";
+
+/* Utilities */
+@import "./_Utilities/Variables";
+@import "./_Utilities/Mixins";
+
+/* Pages */
+@import "./_Pages/Home";
+@import "./_Pages/Introduccion";
+@import "./_Pages/Intervalos";
+@import "./_Pages/Modo_Mayor";
+@import "./_Pages/Modo_menor";
+@import "./_Pages/Circulo_quintas";
+@import "./_Pages/Figuras_Armonicas";
+@import "./_Pages/Modos_Griegos";
+@import "./_Pages/Tonicas_Implicitas";
