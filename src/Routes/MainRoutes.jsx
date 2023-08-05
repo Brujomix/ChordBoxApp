@@ -11,7 +11,7 @@ import {
   FigurasArmomicas,
   TonicasImplicitas,
 } from "../Pages";
-import { Menu } from "../Components/Principales";
+import { Menu, Footer } from "../Components/Principales";
 
 export const MainRoutes = () => {
   return (
@@ -28,6 +28,7 @@ export const MainRoutes = () => {
         <Route exact path="/Modos_Griegos" element={<ModosGriegos />} />
         <Route exact path="/Tonicas_Implicitas" element={<TonicasImplicitas />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

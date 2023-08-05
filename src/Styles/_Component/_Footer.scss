@@ -1,0 +1,6 @@
+.Footer{
+    @include flexible (column, center,center, 2em, nowrap);
+    width: 100vw;
+    padding: 2em;
+    border-top: 1px solid #000;
+}

@@ -1,11 +1,16 @@
 /* Bootstrap */
 @import '~bootstrap/scss/bootstrap';
-/* Reset */
-@import "./_Reset/Reset";
 
 /* Utilities */
 @import "./_Utilities/Variables";
 @import "./_Utilities/Mixins";
+
+/* Reset */
+@import "./_Reset/Reset";
+@import "./_Reset//MainLayout";
+
+/* Components */
+@import "./_Component/Footer";
 
 /* Pages */
 @import "./_Pages/Home";

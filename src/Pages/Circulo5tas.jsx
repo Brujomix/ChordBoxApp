@@ -32,11 +32,11 @@ export const Circulo5tas = () => {
           SIb y las alteraciones que le corresponden son SIb y Mib. En la
           posición de Mib, le corresponde SIb, Mib y LAb. Y así sucesivamente.
         </p>
-        </div>
+      </div>
 
-        <div>
-          <img src={circulo5tas} alt="Circulo de cuartas y quintas" />
-        </div>
+      <div>
+        <img src={circulo5tas} alt="Circulo de cuartas y quintas" />
+      </div>
       <div>
         <p>
           Las notas que se encuentran en el interior del circulo de cuartas y
