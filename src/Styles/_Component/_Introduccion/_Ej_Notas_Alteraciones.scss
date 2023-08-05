@@ -1,0 +1,31 @@
+.Ej_Notas_Alteraciones {
+  background-image: url("../../../Images/introduccion/unaOctava.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 310px;
+  height: 200px;
+  input{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+  }
+  .NotasBlancas {
+    margin-top: 45px;
+    @include flexible(row, center, center, 15px, nowrap);
+  }
+  .ContainerNotasNegras {
+    @include flexible(row, center, center, 57px, nowrap);
+     .NotasNegras1 {
+        margin-top: 80px;
+      margin-left: 29px;
+      @include flexible(row, start, center, 15px, nowrap);
+    }
+    .NotasNegras2 {
+        margin-top: 80px;
+      margin-right: 29px;
+      @include flexible(row, end, center, 15px, nowrap);
+    }
+  }
+}

@@ -6,12 +6,12 @@ import bemol from "../Images/introduccion/bemol.png";
 import becuadro from "../Images/introduccion/becuadro.png";
 import alteraciones from "../Images/introduccion/alteracionespiano.png";
 import enarmonicos from "../Images/introduccion/panel-enarmonicos.png";
-import octava from "../Images/introduccion/unaOctava.png";
 import valoresfigurasbinarias from "../Images/introduccion/valores y silencios de las figuras.png";
 import figurapartes from "../Images/introduccion/figura_partes.png";
 import figurapuntillo from "../Images/introduccion/figura_puntillo.png";
 import valoresfigurasternarias from "../Images/introduccion/valores y silencios de las figuras ternarias.png";
 import { Container } from "react-bootstrap";
+import { Ej_Notas_Alteraciones } from "../Components/Introduccion/Ej_Notas_Alteraciones";
 
 export const Introduccion = () => {
   return (
@@ -112,27 +112,8 @@ export const Introduccion = () => {
         <h4>Practiquemos:</h4>
         <span>Escribe las notas y sus alteraciones.</span>
         <div>
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <input type="text" placeholder="nota" />
-          <div>
-            <img src={octava} alt="Una Octava en el piano" />
+            <Ej_Notas_Alteraciones/>
             <figcaption>Ejercicio - Identifiación de Notas</figcaption>
-          </div>
         </div>
       </div>
 
@@ -206,8 +187,8 @@ export const Introduccion = () => {
       </div>
 
       <div>
-        <h6>Combinando Figuras en el Pentagrama</h6>
-        Aqui Ejercicio Sigue Al baterista !!!!
+        <h6>Test Introdcuccion</h6>
+        Aqui Ejercicios
       </div>
     </Container>
   );

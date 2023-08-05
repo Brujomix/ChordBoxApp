@@ -10,7 +10,11 @@
 @import "./_Reset//MainLayout";
 
 /* Components */
-@import "./_Component/Footer";
+/* Principales */
+@import "./_Component/_Principales/Footer";
+
+/* Introduccion */
+@import "./_Component/_Introduccion/Ej_Notas_Alteraciones";
 
 /* Pages */
 @import "./_Pages/Home";
