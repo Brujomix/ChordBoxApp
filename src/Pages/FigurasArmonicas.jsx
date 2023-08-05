@@ -21,11 +21,12 @@ import cuartasCerradasI1 from "../Images/figuras-armonicas/cuartas-cerrada-inv-f
 import cuartasCerradasI2 from "../Images/figuras-armonicas/cuartas-cerrada-inv-fig-2.png";
 import cuartasCerradasI3 from "../Images/figuras-armonicas/cuartas-cerrada-inv-fig-3.png";
 import cuartasCerradasI4 from "../Images/figuras-armonicas/cuartas-cerrada-inv-fig-4.png";
+import { Container } from "react-bootstrap";
 
 
 export const FigurasArmomicas = () => {
   return (
-    <div className="Figuras_Armonicas">
+    <Container className="Figuras_Armonicas">
       <div>
         <h1>
           Figuras<span>(Armónicas)</span>
@@ -279,6 +280,6 @@ export const FigurasArmomicas = () => {
       <div>
         <h2>Agregar Conclusiones y ejerccios</h2>
       </div>
-    </div>
+    </Container>
   );
 };

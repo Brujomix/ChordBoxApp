@@ -4,10 +4,11 @@ import cmaj from "../Images/tonicas-implicitas/tonicas-implicitas-Cmaj.png";
 import dmaj from "../Images/tonicas-implicitas/tonicas-implicitas-Dmaj.png";
 import cmin from "../Images/tonicas-implicitas/tonicas-implicitas-Cmin.png";
 import dmin from "../Images/tonicas-implicitas/tonicas-implicitas-Dmin.png";
+import { Container } from "react-bootstrap";
 
 export const TonicasImplicitas = () => {
   return (
-    <div className="Tonicas_Implicitas">
+    <Container className="Tonicas_Implicitas">
       <div>
         <h1>
           Tonicas <span>(Implicitas)</span>
@@ -88,6 +89,6 @@ export const TonicasImplicitas = () => {
           />
         </div>
       </div>
-    </div>
+    </Container>
   );
 };

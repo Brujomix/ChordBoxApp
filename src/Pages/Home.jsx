@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 export const Home = () => {
   return (
-    <div className="Home">
+    <Container className="Home">
       <h1>Chord-Box APP</h1>
       <p>
         <b>Chord-Box</b> es una aplicación web pensada para aquellas personas
@@ -12,6 +13,6 @@ export const Home = () => {
         mejorar cada dia un poquito más los conocimientos.Aventurate a aprender
         y crecer con los ejercicios que ofrecemos o reforzar los ya aprendidos.
       </p>
-    </div>
+    </Container>
   );
 };

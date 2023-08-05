@@ -11,10 +11,11 @@ import valoresfigurasbinarias from "../Images/introduccion/valores y silencios d
 import figurapartes from "../Images/introduccion/figura_partes.png";
 import figurapuntillo from "../Images/introduccion/figura_puntillo.png";
 import valoresfigurasternarias from "../Images/introduccion/valores y silencios de las figuras ternarias.png";
+import { Container } from "react-bootstrap";
 
 export const Introduccion = () => {
   return (
-    <div className="Introduccion">
+    <Container className="Introduccion">
       <div>
         <h1>
           Introducción <span>(Primeros Pasos)</span>
@@ -208,6 +209,6 @@ export const Introduccion = () => {
         <h6>Combinando Figuras en el Pentagrama</h6>
         Aqui Ejercicio Sigue Al baterista !!!!
       </div>
-    </div>
+    </Container>
   );
 };

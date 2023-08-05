@@ -1,9 +1,10 @@
 import React from "react";
 import circulo5tas from "../Images/circulo4tas/circulo4tas.png";
+import { Container } from "react-bootstrap";
 
 export const Circulo5tas = () => {
   return (
-    <div className="Circulo_Quintas">
+    <Container className="Circulo_Quintas">
       <div>
         <h1>
           Circulo <span>(4ta o 5ta)</span>
@@ -62,6 +63,6 @@ export const Circulo5tas = () => {
           asigna su relativa menor.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };

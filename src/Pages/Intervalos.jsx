@@ -3,10 +3,11 @@ import escalaC from "../Images/intervalos/escalac.png";
 import estructuraC from "../Images/intervalos/estructurac.png";
 import tetracordes from "../Images/intervalos/tetracordesescalas.png";
 import pentagramaSol from "../Images/intervalos/pentagramasol.png";
+import { Container } from "react-bootstrap";
 
 export const Intervalos = () => {
   return (
-    <div className="Intervalos">
+    <Container className="Intervalos">
       <div>
         <h1>
           Intervalos
@@ -124,6 +125,6 @@ export const Intervalos = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };

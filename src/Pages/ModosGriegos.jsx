@@ -12,10 +12,11 @@ import eolico from "../Images/modos-griegos/eolico.png";
 import eolicoPenta from "../Images/modos-griegos/eolico-penta.png";
 import locrio from "../Images/modos-griegos/locrio.png";
 import locrioPenta from "../Images/modos-griegos/locrio-penta.png";
+import { Container } from "react-bootstrap";
 
 export const ModosGriegos = () => {
   return (
-    <div className="Modos_Griegos">
+    <Container className="Modos_Griegos">
         <div>
           <h1>
             Modos<span>(Griegos)</span>
@@ -134,6 +135,6 @@ export const ModosGriegos = () => {
             armonias para generar nuevas sensaciones msuicales.
           </p>
         </div>
-      </div>
+      </Container>
   );
 };

@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 export const Modomenor = () => {
   return (
-    <div className="Modo_menor">
+    <Container className="Modo_menor">
       <div>
         <h1>
           Modo<span>(menor)</span>
@@ -296,6 +297,6 @@ export const Modomenor = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
