@@ -110,7 +110,7 @@ export const Introduccion = () => {
 
       <div>
         <h4>Practiquemos:</h4>
-        <span>Escribe las notas y sus alteraciones.</span>
+        <span>Escribe las notas y sus alteraciones.(Ej: C# o Db o Fx o Bbb)</span>
         <div>
             <Ej_Notas_Alteraciones/>
             <figcaption>Ejercicio - Identifiación de Notas</figcaption>
