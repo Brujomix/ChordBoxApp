@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { TablaGenericaTonalidad } from "../Components/Tablas";
+import { TablaGradosTonalidad } from "../Components/ModoMayor";
 
 export const ModoMayor = () => {
   return (
@@ -26,7 +26,7 @@ export const ModoMayor = () => {
           en las siguientes tonalidades:
         </p>
         <div>
-          <TablaGenericaTonalidad
+          <TablaGradosTonalidad
             a={"Cmaj7"}
             b={"Dmin7"}
             c={"Emin7"}

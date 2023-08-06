@@ -11,10 +11,14 @@
 
 /* Components */
 /* Principales */
-@import "./_Component/_Principales/Footer";
+@import "./_Component/Footer";
 
 /* Introduccion */
-@import "./_Component/_Introduccion/Ej_Notas_Alteraciones";
+@import "./_Component/Ej_Notas_Alteraciones";
+
+/* Intervalos */
+@import "./_Component/ConstructorIntervalos";
+@import "./_Component/TablaIntervalos";
 
 /* Pages */
 @import "./_Pages/Home";

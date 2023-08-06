@@ -1,7 +1,7 @@
 import React from 'react'
-import Table from 'react-bootstrap/Table';
+import {Table} from 'react-bootstrap';
 
-export const TablaGenericaTonalidad = ({a, b, c, d, e, f, g}) => {
+export const TablaGradosTonalidad = ({a, b, c, d, e, f, g}) => {
   return (
     <div>
        <Table striped bordered hover>
