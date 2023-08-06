@@ -1,0 +1,208 @@
+{
+  "ArrayNotas": [
+    {
+      "id": 0,
+      "Nota": "C",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Db" },
+        { "Nombre": "Segunda_Mayor", "Valor": "D" },
+        { "Nombre": "Tercera_menor", "Valor": "Eb" },
+        { "Nombre": "Tercera_Mayor", "Valor": "E" },
+        { "Nombre": "Cuarta_justa", "Valor": "F" },
+        { "Nombre": "Tritono", "Valor": "F#" },
+        { "Nombre": "Quinta_Justa", "Valor": "G" },
+        { "Nombre": "Sexta_menor", "Valor": "Ab" },
+        { "Nombre": "Sexta_Mayor", "Valor": "A" },
+        { "Nombre": "Septima_menor", "Valor": "Bb" },
+        { "Nombre": "Septima_Mayor", "Valor": "B" }
+      ]
+    },
+    {
+      "id": 1,
+      "Nota": "C#",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Db" },
+        { "Nombre": "Segunda_Mayor", "Valor": "D" },
+        { "Nombre": "Tercera_menor", "Valor": "Eb" },
+        { "Nombre": "Tercera_Mayor", "Valor": "E" },
+        { "Nombre": "Cuarta_justa", "Valor": "F" },
+        { "Nombre": "Tritono", "Valor": "F#" },
+        { "Nombre": "Quinta_Justa", "Valor": "G" },
+        { "Nombre": "Sexta_menor", "Valor": "Ab" },
+        { "Nombre": "Sexta_Mayor", "Valor": "A" },
+        { "Nombre": "Septima_menor", "Valor": "Bb" },
+        { "Nombre": "Septima_Mayor", "Valor": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "Nota": "D",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 3,
+      "Nota": "D#",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 4,
+      "Nota": "E",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 5,
+      "Nota": "F",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 6,
+      "Nota": "F#",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 7,
+      "Nota": "G",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 8,
+      "Nota": "G#",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 9,
+      "Nota": "A",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 10,
+      "Nota": "A#",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    },
+    {
+      "id": 11,
+      "Nota": "B",
+      "Intervalos": [
+        { "Nombre": "Segunda_menor", "Valor": "Eb" },
+        { "Nombre": "Segunda_Mayor", "Valor": "E" },
+        { "Nombre": "Tercera_menor", "Valor": "F" },
+        { "Nombre": "Tercera_Mayor", "Valor": "F#" },
+        { "Nombre": "Cuarta_justa", "Valor": "G" },
+        { "Nombre": "Tritono", "Valor": "G#" },
+        { "Nombre": "Quinta_Justa", "Valor": "A" },
+        { "Nombre": "Sexta_menor", "Valor": "Bb" },
+        { "Nombre": "Sexta_Mayor", "Valor": "B" },
+        { "Nombre": "Septima_menor", "Valor": "C" },
+        { "Nombre": "Septima_Mayor", "Valor": "C#" }
+      ]
+    }
+  ]
+}

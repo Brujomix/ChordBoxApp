@@ -1,8 +1,22 @@
 .ConstructorIntervalos {
-  background-image: url("../../Images//intervalos/pentagramasol.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 310px;
-  height: 250px;
+  @include flexible(row, center, center, 1em, wrap);
+  border: 1px solid black;
+  border-radius: 15px;
+  max-width: 600px;
+  padding: 1em;
+  .SeleccionIntervalo{
+    text-align: center;
+  }
+  .NotaInput {  
+    @include flexible(column, center, center, 1em, nowrap);
+    input {
+      text-align: center;
+      width: 60px;
+      height: 60px;
+      font-size: 1.2rem;
+    }
+    button{
+      padding: 5px;
+    }
+  }
 }
