@@ -1,44 +1,44 @@
 import React, { useState } from "react";
 import ArrayNotas from "../../Components/Intervalos/ArrayNotas.json";
+import Intervalos from "../../Components/Intervalos/ArrayIntervalosResultados.json";
+import IntervalosNombres from "../../Components/Intervalos/ArrayIntervalosNombres.json";
 
 export const ContructorIntervalos = () => {
-  const [notaEncontrada, setNotaEncontrada] = useState([]);
+  const [notaEncontrada, setNotaEncontrada] = useState("");
   const [tipoIntervalo, setTipoIntervalo] = useState("");
-  const [notaIngresada, setNotaIngresada] = useState("");
-
-  const ArrayIntervalos = [
-    { id: 1, Nombre: "Segunda_menor" },
-    { id: 2, Nombre: "Segunda_Mayor" },
-    { id: 3, Nombre: "Tercera_menor" },
-    { id: 4, Nombre: "Tercera_Mayor" },
-    { id: 5, Nombre: "Cuarta_justa" },
-    { id: 6, Nombre: "Tritono" },
-    { id: 7, Nombre: "Quinta_Justa" },
-    { id: 8, Nombre: "Sexta_menor" },
-    { id: 9, Nombre: "Sexta_Mayor" },
-    { id: 10, Nombre: "Septima_menor" },
-    { id: 11, Nombre: "Septima_Mayor" },
-  ];
+  const [objVerificacion, setObjVerificacion] = useState({});
+  const [iconoRespueta, setIconoRespuesta] = useState(false);
 
   const handleEventGenerar = () => {
     const randomNumber = Math.floor(Math.random() * 11);
     const res = ArrayNotas.ArrayNotas.filter((e) => e.id === randomNumber);
-    setNotaEncontrada(res);
+    setNotaEncontrada(res[0].Nota);
   };
-
+  
   const handleIntervaloChange = (e) => {
     setTipoIntervalo(e.target.value);
   };
-  const handleEventInput = (e) => {
-    setNotaIngresada(e.target.value);
+
+  const handleEventIngresado = (e) => {
+    const objIntervalo={
+      Nota:notaEncontrada,
+      Intervalo:tipoIntervalo,
+      ValorIngresado: e.target.value
+    }
+    setObjVerificacion(objIntervalo);
   };
 
-  const handleEventVerificar = (e) => {
-    console.log(e.target.value);
-    console.log("Logica de Validacion");
-  };
+  const handleEventVerificar = () => {
 
-  console.log(notaIngresada);
+    for (let index = 0; index < Intervalos.IntervalosResultados.length; index++) {
+      if(JSON.stringify(Intervalos.IntervalosResultados[index]) === JSON.stringify(objVerificacion)){
+        setIconoRespuesta(true)
+        break;
+      }else{
+        setIconoRespuesta(false)
+      }
+    }
+  };
 
   return (
     <div className="ConstructorIntervalos">
@@ -49,7 +49,7 @@ export const ContructorIntervalos = () => {
         <div>
           <input
             placeholder={
-              notaEncontrada.length === 0 ? "Nota" : notaEncontrada[0].Nota
+              notaEncontrada.length === 0 ? "Nota" : notaEncontrada
             }
           />
         </div>
@@ -60,7 +60,7 @@ export const ContructorIntervalos = () => {
       <div className="SeleccionIntervalo">
         <span>Selecciona el Intervalo</span>
         <div id="ListaIntervalos">
-          {ArrayIntervalos.map((e) => (
+          {IntervalosNombres.ArrayIntervalos.map((e) => (
             <div key={e.id}>
               <input
                 type="radio"
@@ -81,15 +81,14 @@ export const ContructorIntervalos = () => {
         <div>
           <input
             placeholder="Nota"
-            value={notaIngresada}
-            onChange={handleEventInput}
+            onChange={handleEventIngresado}
           />
         </div>
         <div>
           <button onClick={handleEventVerificar}>Verificar</button>
         </div>
         <div>
-          <button onClick={() => setNotaIngresada("")}>Reset</button>
+          {iconoRespueta ? "Excelente" : "Intenta Nuevamente"}
         </div>
       </div>
     </div>

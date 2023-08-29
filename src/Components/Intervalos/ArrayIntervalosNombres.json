@@ -1,0 +1,15 @@
+{
+  "ArrayIntervalos": [
+    { "id": 1, "Nombre": "Segunda_menor" },
+    { "id": 2, "Nombre": "Segunda_Mayor" },
+    { "id": 3, "Nombre": "Tercera_menor" },
+    { "id": 4, "Nombre": "Tercera_Mayor" },
+    { "id": 5, "Nombre": "Cuarta_justa" },
+    { "id": 6, "Nombre": "Tritono" },
+    { "id": 7, "Nombre": "Quinta_Justa" },
+    { "id": 8, "Nombre": "Sexta_menor" },
+    { "id": 9, "Nombre": "Sexta_Mayor" },
+    { "id": 10, "Nombre": "Septima_menor" },
+    { "id": 11, "Nombre": "Septima_Mayor" }
+  ]
+}

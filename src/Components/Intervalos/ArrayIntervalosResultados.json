@@ -1,0 +1,6 @@
+{
+    "IntervalosResultados":[
+        {"Nota": "A", "Intervalo": "Tercera_menor", "ValorIngresado": "C"},
+        {"Nota": "A", "Intervalo": "Tercera_Mayor", "ValorIngresado": "C#"}
+    ]
+}
