@@ -91,6 +91,9 @@ export const ContructorIntervalos = () => {
           {iconoRespueta ? "Excelente" : "Intenta Nuevamente"}
         </div>
       </div>
+        <div>
+          <p>Debes Ingresar todos los campos y las notas del resultado en Mayuscula</p>
+        </div>
     </div>
   );
 };

@@ -1,6 +1,41 @@
 {
     "IntervalosResultados":[
+        
+        {"Nota": "A", "Intervalo": "Segunda_menor", "ValorIngresado": "Bb"},
+        {"Nota": "A", "Intervalo": "Segunda_Mayor", "ValorIngresado": "B"},
         {"Nota": "A", "Intervalo": "Tercera_menor", "ValorIngresado": "C"},
-        {"Nota": "A", "Intervalo": "Tercera_Mayor", "ValorIngresado": "C#"}
+        {"Nota": "A", "Intervalo": "Tercera_Mayor", "ValorIngresado": "C#"},
+        {"Nota": "A", "Intervalo": "Cuarta justa", "ValorIngresado": "D"},
+        {"Nota": "A", "Intervalo": "Tritono", "ValorIngresado": "D#"},
+        {"Nota": "A", "Intervalo": "Quinta justa", "ValorIngresado": "E"},
+        {"Nota": "A", "Intervalo": "Sexta_menor", "ValorIngresado": "F"},
+        {"Nota": "A", "Intervalo": "Sexta_Mayor", "ValorIngresado": "F#"},
+        {"Nota": "A", "Intervalo": "Septima_menor", "ValorIngresado": "G"},
+        {"Nota": "A", "Intervalo": "Septima_Mayor", "ValorIngresado": "G#"},
+
+        {"Nota": "Bb", "Intervalo": "Segunda_menor", "ValorIngresado": "Cb"},
+        {"Nota": "Bb", "Intervalo": "Segunda_Mayor", "ValorIngresado": "C"},
+        {"Nota": "Bb", "Intervalo": "Tercera_menor", "ValorIngresado": "Db"},
+        {"Nota": "Bb", "Intervalo": "Tercera_Mayor", "ValorIngresado": "D"},
+        {"Nota": "Bb", "Intervalo": "Cuarta justa", "ValorIngresado": "Eb"},
+        {"Nota": "Bb", "Intervalo": "Tritono", "ValorIngresado": "E"},
+        {"Nota": "Bb", "Intervalo": "Quinta justa", "ValorIngresado": "F"},
+        {"Nota": "Bb", "Intervalo": "Sexta_menor", "ValorIngresado": "Gb"},
+        {"Nota": "Bb", "Intervalo": "Sexta_Mayor", "ValorIngresado": "G"},
+        {"Nota": "Bb", "Intervalo": "Septima_menor", "ValorIngresado": "A"},
+        {"Nota": "Bb", "Intervalo": "Septima_Mayor", "ValorIngresado": "A#"},
+
+        {"Nota": "B", "Intervalo": "Segunda_menor", "ValorIngresado": "C"},
+        {"Nota": "B", "Intervalo": "Segunda_Mayor", "ValorIngresado": "C#"},
+        {"Nota": "B", "Intervalo": "Tercera_menor", "ValorIngresado": "D"},
+        {"Nota": "B", "Intervalo": "Tercera_Mayor", "ValorIngresado": "D#"},
+        {"Nota": "B", "Intervalo": "Cuarta justa", "ValorIngresado": "E"},
+        {"Nota": "B", "Intervalo": "Tritono", "ValorIngresado": "F"},
+        {"Nota": "B", "Intervalo": "Quinta justa", "ValorIngresado": "F#"},
+        {"Nota": "B", "Intervalo": "Sexta_menor", "ValorIngresado": "G"},
+        {"Nota": "B", "Intervalo": "Sexta_Mayor", "ValorIngresado": "G#"},
+        {"Nota": "B", "Intervalo": "Septima_menor", "ValorIngresado": "A"},
+        {"Nota": "B", "Intervalo": "Septima_Mayor", "ValorIngresado": "A#"}
+
     ]
 }
