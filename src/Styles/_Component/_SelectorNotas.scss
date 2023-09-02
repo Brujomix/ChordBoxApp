@@ -1,0 +1,17 @@
+.SelectorNotas{
+    @include flexible (row, center, center, .5em, wrap);
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    .ContainerNotas{
+        button{
+            width: 25px;
+            height: 25px;
+            border: 1px solid black;
+            &:hover{
+                background-color: aliceblue;
+            }
+        }
+    }
+}

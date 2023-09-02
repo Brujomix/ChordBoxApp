@@ -1,0 +1,25 @@
+{
+    "SelectorNotas": [
+        {"id": 1, "Nota": "C"},
+        {"id": 2, "Nota": "C#"},
+        {"id": 3, "Nota": "Db"},
+        {"id": 4, "Nota": "D"},
+        {"id": 5, "Nota": "D#"},
+        {"id": 6, "Nota": "Eb"},
+        {"id": 7, "Nota": "E"},
+        {"id": 8, "Nota": "E#"},
+        {"id": 9, "Nota": "Fb"},
+        {"id": 10, "Nota": "F"},
+        {"id": 11, "Nota": "F#"},
+        {"id": 12, "Nota": "Gb"},
+        {"id": 13, "Nota": "G"},
+        {"id": 14, "Nota": "G#"},
+        {"id": 15, "Nota": "Ab"},
+        {"id": 16, "Nota": "A"},
+        {"id": 17, "Nota": "A#"},      
+        {"id": 18, "Nota": "Bb"},      
+        {"id": 19, "Nota": "B"},      
+        {"id": 20, "Nota": "B#"},      
+        {"id": 21, "Nota": "Cb"}  
+    ]
+}

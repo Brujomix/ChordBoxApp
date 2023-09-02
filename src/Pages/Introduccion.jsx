@@ -11,7 +11,11 @@ import figurapartes from "../Images/introduccion/figura_partes.png";
 import figurapuntillo from "../Images/introduccion/figura_puntillo.png";
 import valoresfigurasternarias from "../Images/introduccion/valores y silencios de las figuras ternarias.png";
 import { Container } from "react-bootstrap";
-import { Ej_Notas_Alteraciones } from "../Components/Introduccion/Ej_Notas_Alteraciones";
+import {
+  Ej_Notas_Alteraciones,
+  Ej_Notas_Alteracionescopy,
+} from "../Components/Introduccion";
+import { SelectorNotas } from "../Components/Introduccion";
 
 export const Introduccion = () => {
   return (
@@ -110,10 +114,13 @@ export const Introduccion = () => {
 
       <div>
         <h4>Practiquemos:</h4>
-        <span>Escribe las notas y sus alteraciones.(Ej: C# o Db o Fx o Bbb)</span>
+        <span>
+          Escribe las notas y sus alteraciones.(Ej: C# o Db o Fx o Bbb)
+        </span>
         <div>
-            <Ej_Notas_Alteraciones/>
-            <figcaption>Ejercicio - Identifiación de Notas</figcaption>
+          <Ej_Notas_Alteracionescopy />
+          <SelectorNotas />
+          <figcaption>Ejercicio - Identifiación de Notas</figcaption>
         </div>
       </div>
 

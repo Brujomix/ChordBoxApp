@@ -35,7 +35,19 @@
         {"Nota": "B", "Intervalo": "Sexta_menor", "ValorIngresado": "G"},
         {"Nota": "B", "Intervalo": "Sexta_Mayor", "ValorIngresado": "G#"},
         {"Nota": "B", "Intervalo": "Septima_menor", "ValorIngresado": "A"},
-        {"Nota": "B", "Intervalo": "Septima_Mayor", "ValorIngresado": "A#"}
+        {"Nota": "B", "Intervalo": "Septima_Mayor", "ValorIngresado": "A#"},
+        
+        {"Nota": "C", "Intervalo": "Segunda_menor", "ValorIngresado": "Db"},
+        {"Nota": "C", "Intervalo": "Segunda_Mayor", "ValorIngresado": "D"},
+        {"Nota": "C", "Intervalo": "Tercera_menor", "ValorIngresado": "Eb"},
+        {"Nota": "C", "Intervalo": "Tercera_Mayor", "ValorIngresado": "E"},
+        {"Nota": "C", "Intervalo": "Cuarta justa", "ValorIngresado": "F"},
+        {"Nota": "C", "Intervalo": "Tritono", "ValorIngresado": "F#"},
+        {"Nota": "C", "Intervalo": "Quinta justa", "ValorIngresado": "G"},
+        {"Nota": "C", "Intervalo": "Sexta_menor", "ValorIngresado": "Ab"},
+        {"Nota": "C", "Intervalo": "Sexta_Mayor", "ValorIngresado": "A"},
+        {"Nota": "C", "Intervalo": "Septima_menor", "ValorIngresado": "Bb"},
+        {"Nota": "C", "Intervalo": "Septima_Mayor", "ValorIngresado": "B"}
 
     ]
 }

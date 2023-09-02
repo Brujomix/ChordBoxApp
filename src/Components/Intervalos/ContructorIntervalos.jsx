@@ -4,6 +4,7 @@ import Intervalos from "../../Components/Intervalos/ArrayIntervalosResultados.js
 import IntervalosNombres from "../../Components/Intervalos/ArrayIntervalosNombres.json";
 
 export const ContructorIntervalos = () => {
+  
   const [notaEncontrada, setNotaEncontrada] = useState("");
   const [tipoIntervalo, setTipoIntervalo] = useState("");
   const [objVerificacion, setObjVerificacion] = useState({});
