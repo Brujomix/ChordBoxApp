@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { SelectorNotas } from "./SelectorNotas";
 
 const checkValue = (e, nodo, Nota, Enarmonico1, Enarmonico2) => {
   const res = e.target.value;
@@ -21,12 +22,15 @@ const resetValues = () => {
   document.getElementById("inputFsostenido").value = "";
   document.getElementById("inputG").value = "";
   document.getElementById("inputGsostenido").value = "";
-  document.getElementById("inputA").value =  "";
+  document.getElementById("inputA").value = "";
   document.getElementById("inputAsostenido").value = "";
   document.getElementById("inputB").value = "";
 };
 
 export const Ej_Notas_Alteracionescopy = () => {
+  const [muestraSelector, setMuestraSelector] = useState(false);
+  const [notaSeleccionada, setNotaSeleccionada] = useState("");
+
   return (
     <>
       <button onClick={resetValues}>Reset</button>
@@ -36,6 +40,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             <input
               placeholder="?"
               id="inputCsostenido"
+              value={notaSeleccionada}
               onChange={(e) =>
                 checkValue(
                   e,
@@ -45,7 +50,7 @@ export const Ej_Notas_Alteracionescopy = () => {
                   "Bx"
                 )
               }
-              onFocus={(e)=> e.target.value = "E"}
+              onFocus={() => setMuestraSelector(true)}
             />
             <input
               placeholder="?"
@@ -59,6 +64,7 @@ export const Ej_Notas_Alteracionescopy = () => {
                   "Ebb"
                 )
               }
+              onFocus={() => setMuestraSelector(true)}
             />
           </div>
           <div className="NotasNegras2">
@@ -74,6 +80,7 @@ export const Ej_Notas_Alteracionescopy = () => {
                   "Ex"
                 )
               }
+              onFocus={() => setMuestraSelector(true)}
             />
             <input
               placeholder="?"
@@ -87,6 +94,7 @@ export const Ej_Notas_Alteracionescopy = () => {
                   "Fx"
                 )
               }
+              onFocus={() => setMuestraSelector(true)}
             />
             <input
               placeholder="?"
@@ -100,6 +108,7 @@ export const Ej_Notas_Alteracionescopy = () => {
                   "Gx"
                 )
               }
+              onFocus={() => setMuestraSelector(true)}
             />
           </div>
         </div>
@@ -110,6 +119,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputC"), "C", "B#", "Dbb")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -117,6 +127,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputD"), "D", "Cx", "Ebb")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -124,6 +135,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputE"), "E", "Dx", "Fb")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -131,6 +143,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputF"), "F", "E#", "Gbb")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -138,6 +151,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputG"), "G", "Fx", "Abb")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -145,6 +159,7 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputA"), "A", "Bbb", "Gx")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
           <input
             placeholder="?"
@@ -152,9 +167,16 @@ export const Ej_Notas_Alteracionescopy = () => {
             onChange={(e) =>
               checkValue(e, document.getElementById("inputB"), "B", "Cb", "Ax")
             }
+            onFocus={() => setMuestraSelector(true)}
           />
         </div>
       </div>
+      <SelectorNotas
+        mostrar={muestraSelector}
+        clickCheck={_ => checkValue()}
+        clickClose={_ => setMuestraSelector(false)}
+        clickNota={(e)=>setNotaSeleccionada(e.target.innerText)}
+      />
     </>
   );
 };

@@ -1,4 +1,4 @@
-.SelectorNotas{
+.SelectorNotasOn{
     @include flexible (row, center, center, .5em, wrap);
     width: 260px;
     border: 1px solid black;
@@ -14,4 +14,7 @@
             }
         }
     }
+}
+.SelectorNotasOff{
+    display: none;
 }
