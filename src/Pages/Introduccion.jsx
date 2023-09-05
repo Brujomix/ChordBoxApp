@@ -20,14 +20,14 @@ import { SelectorNotas } from "../Components/Introduccion";
 export const Introduccion = () => {
   return (
     <Container className="Introduccion">
-      <div>
-        <h1>
-          Introducción <span>(Primeros Pasos)</span>
-        </h1>
-      </div>
+      <header>
+        <h1>Modulo I</h1>
+        <h2>Introducción</h2>
+        <span>(Primeros Pasos)</span>
+      </header>
 
-      <div>
-        <h2>Identificación de los Dedos</h2>
+      <h3>Identificación de los Dedos:</h3>
+      <section>
         <p>
           Es de vital importancia mantener una técnica al ejecutar cualquier
           instrumento. Con esto lograremos estar mas sueltos al tocar y asi
@@ -38,48 +38,51 @@ export const Introduccion = () => {
           usaremos para escribir la <i>Digitacion</i> de las escalas.
         </p>
 
-        <div>
+        <div className="ImagenFigcap">
           <img src={dedos} alt="Identificación de las manos" />
           <figcaption>Identificación de los Dedos</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h3>Cifrado Americano</h3>
+      <h3>Cifrado Americano:</h3>
+      <section>
         <p>
           El Cifrado Americano es la forma que adoptamos todos los musicos para
           poder globalizar la escritura musical. De esta forma es mas práctico
           divisar un cifrado de un acorde escrito en un pentagrama o una
-          progresion armonica con sus extensiones. Quedando la nomenclatura de
-          la siguiente manera:{" "}
+          progresion armonica con sus extensiones.
+          <br />
+          <b>Quedando la nomenclatura de la siguiente manera:</b>
         </p>
-        <div>
+        <div className="ImagenFigcap">
           <img
             src={cifradoamericano}
             alt="Cifrado Americano, nombres de las notas"
           />
           <figcaption>Cifrado Americano - Nomenclatura</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h3>Alteraciones</h3>
+      <h3>Alteraciones:</h3>
+      <section>
         <p>
           Las alteraciones son símbolos musicales que usamos para aumentar o
           disminuir el valor de una nota.
         </p>
         <div className="Alteraciones">
-          <div>
-            <img src={sostenido} alt="Sostenido Alteracion musical" />
-            <span>Sostenido</span>
-          </div>
-          <div>
-            <img src={bemol} alt="Bemol Alteracion musical" />
-            <span>Bemol</span>
-          </div>
-          <div>
-            <img src={becuadro} alt="Becuadro Alteracion musical" />
-            <span>Becuadro</span>
+          <div className="ContainerAlteraciones">
+            <div className="ImagenFigcap">
+              <img src={sostenido} alt="Sostenido Alteracion musical" />
+              <figcaption>Sostenido</figcaption>
+            </div>
+            <div className="ImagenFigcap">
+              <img src={bemol} alt="Bemol Alteracion musical" />
+              <figcaption>Bemol</figcaption>
+            </div>
+            <div className="ImagenFigcap">
+              <img src={becuadro} alt="Becuadro Alteracion musical" />
+              <figcaption>Becuadro</figcaption>
+            </div>
           </div>
           <figcaption>Alteracion mas Comunes</figcaption>
         </div>
@@ -91,10 +94,12 @@ export const Introduccion = () => {
           acepte ninguna alteracion y si previamente tenía asignada alguna la
           elimina quedando la nota natural asignada. Veamos algunos Ejemplos:
         </p>
-        <div>
+
+        <div className="ImagenFigcap">
           <img src={alteraciones} alt="Alteracion en el teclado" />
           <figcaption>Alteraciones en el Piano</figcaption>
         </div>
+
         <p>
           Podemos observar que algunas de las notas pueden llevar el mismo
           sonido pero distinto nombre. Veamos el EJ:
@@ -106,26 +111,23 @@ export const Introduccion = () => {
           distina nomenclatura.
         </p>
 
-        <div>
+        <div className="ImagenFigcap">
           <img src={enarmonicos} alt="Panel Notas Enarmonicas" />
           <figcaption>Panel de Notas Enarmonicas</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h4>Practiquemos:</h4>
-        <span>
-          Escribe las notas y sus alteraciones.(Ej: C# o Db o Fx o Bbb)
-        </span>
-        <div>
+      <h4>Practiquemos:</h4>
+      <section>
+        <div className="ImagenFigcap">
           <Ej_Notas_Alteracionescopy />
           <SelectorNotas />
           <figcaption>Ejercicio - Identifiación de Notas</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h5>Figuras Musicales</h5>
+      <h3>Figuras Musicales:</h3>
+      <section>
         <p>
           Para que podamos identificar cual es la duración de las notas
           ejecutadas debemos conocer las figuras musicales y sus valores. El
@@ -145,32 +147,30 @@ export const Introduccion = () => {
           como el reloj pasa los segundos. Pero es un termino facil de comparar
           para su aprendizaje. Veamos ahora nuestras figuras y sus valores.
         </p>
-        <div>
+        <div className="ImagenFigcap">
           <img
             src={valoresfigurasbinarias}
             alt="Valores de figuras Muscicales"
           />
           <figcaption>Valores de las Figuras Musicales binarias</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h5>Parte de las Figuras Musicales</h5>
-        <div>
+      <h3>Parte de las Figuras Musicales:</h3>
+      <section className="PartesFiguraMusical">
+        <div className="ImagenFigcap">
           <img src={figurapartes} alt="Partes de una figura musical" />
           <figcaption>Partes de una figura musical</figcaption>
         </div>
-        <div>
-          <ul>
-            <li>Corchete</li>
-            <li>Plica</li>
-            <li>Cabeza</li>
-          </ul>
-        </div>
-      </div>
+        <ul>
+          <li>1 - Corchete</li>
+          <li>2 - Plica</li>
+          <li>3 - Cabeza</li>
+        </ul>
+      </section>
 
-      <div>
-        <h5>Puntillo</h5>
+      <h3>Puntillo:</h3>
+      <section>
         <p>
           El <i>Puntillo</i> agrega a la nota la mitad de su valor. Ejemplo. Si
           tenemos una figura como la blanca y le adicionamos un puntillo, el
@@ -179,24 +179,21 @@ export const Introduccion = () => {
           ya le precede. Blanca con dos puntillos 3 1/2 pulsos. Seria igual a 2
           negras y 1 corchea.
         </p>
-        <div>
+        <div className="ImagenFigcap">
           <img src={figurapuntillo} alt="Figuras con puntillo" />
-
           <figcaption>Negra con puntillo. Valor de 1 pulso y medio</figcaption>
         </div>
-        <div>
+        <div className="ImagenFigcap">
           <img
             src={valoresfigurasternarias}
             alt="Valores de figuras Muscicales Subdivision ternaria"
           />
           <figcaption>Valores de las Figuras Musicales ternarias</figcaption>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <h6>Test Introdcuccion</h6>
-        Aqui Ejercicios
-      </div>
+      <h4>Test Introdcuccion</h4>
+      <section>Aqui Ejercicios</section>
     </Container>
   );
 };

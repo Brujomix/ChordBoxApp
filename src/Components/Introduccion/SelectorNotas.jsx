@@ -7,11 +7,11 @@ export const SelectorNotas = ({mostrar, clickClose, clickNota}) => {
     
     <div className={mostrar ? "SelectorNotasOn" : "SelectorNotasOff"}>
       {ArraySelectorNotas.SelectorNotas.map((e) => (
-        <div className="ContainerNotas" key={e.id}>
+        <div className="ButtonNotas" key={e.id}>
           <button onClick={clickNota}>{e.Nota}</button>
         </div>
       ))}
-    <div>
+    <div className="ButtonPanel">
       <button onClick={clickClose}>Close</button>
     </div>
     </div>

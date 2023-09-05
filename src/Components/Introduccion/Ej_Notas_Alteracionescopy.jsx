@@ -6,46 +6,50 @@ export const Ej_Notas_Alteracionescopy = () => {
 
   const [notaSeleccionada, setNotaSeleccionada] = useState("");
 
+  const [notaDoSost, setNotaDoSost] = useState("")
+  const [notaReSost, setNotaReSost] = useState("")
+
+  const [notaFaSost, setNotaFaSost] = useState("")
+  const [notaSolSost, setNotaSolSost] = useState("")
+  const [notaLaSost, setNotaLaSost] = useState("")
+
+  const [notaDo, setNotaDo] = useState("")
+  const [notaRe, setNotaRe] = useState("")
+  const [notaMi, setNotaMi] = useState("")
+  const [notaFa, setNotaFa] = useState("")
+  const [notaSol, setNotaSol] = useState("")
+  const [notaLa, setNotaLa] = useState("")
+  const [notaSi, setNotaSi] = useState("")
+
   const checkValue = (nodo, Nota, Enarmonico1, Enarmonico2) => {
     
-    if (notaSeleccionada === Nota || notaSeleccionada === Enarmonico1 || notaSeleccionada === Enarmonico2) {
+    if (
+      notaSeleccionada === Nota ||
+      notaSeleccionada === Enarmonico1 ||
+      notaSeleccionada === Enarmonico2
+    ) {
       nodo.style.color = "#000";
       nodo.style.background = "#0f0";
+      nodo.value = notaSeleccionada
     } else {
       nodo.style.color = "#fff";
       nodo.style.background = "#f00f";
+      nodo.value = notaSeleccionada
     }
   };
-
-  const resetValues = () => {
-    document.getElementById("inputC").value = "";
-    document.getElementById("inputCsostenido").value = "";
-    document.getElementById("inputD").value = "";
-    document.getElementById("inputDsostenido").value = "";
-    document.getElementById("inputE").value = "";
-    document.getElementById("inputF").value = "";
-    document.getElementById("inputFsostenido").value = "";
-    document.getElementById("inputG").value = "";
-    document.getElementById("inputGsostenido").value = "";
-    document.getElementById("inputA").value = "";
-    document.getElementById("inputAsostenido").value = "";
-    document.getElementById("inputB").value = "";
-    setMuestraSelector(false);
-  };
-
+  
   return (
     <>
-      <button onClick={resetValues}>Reset</button>
-
       <div className="Ej_Notas_Alteraciones">
         <div className="ContainerNotasNegras">
+          {/* Notas Negras 1 */}
+
           <div className="NotasNegras1">
             <input
               name="C#"
               id="inputCsostenido"
               placeholder="?"
-              value={notaSeleccionada}
-              onFocus={() => {
+              onClick={() => {
                 setMuestraSelector(true);
                 checkValue(
                   document.getElementById("inputCsostenido"),
@@ -58,15 +62,18 @@ export const Ej_Notas_Alteracionescopy = () => {
 
             <input
               name="D#"
+              value={notaReSost}
               placeholder="?"
               id="inputDsostenido"
               onFocus={() => setMuestraSelector(true)}
             />
           </div>
-
+          {/* Notas Negras 2 */}
           <div className="NotasNegras2">
             <input
+              name="F#"
               placeholder="?"
+              value={notaFaSost}
               id="inputFsostenido"
               onChange={(e) =>
                 checkValue(
@@ -80,7 +87,9 @@ export const Ej_Notas_Alteracionescopy = () => {
               onFocus={() => setMuestraSelector(true)}
             />
             <input
+              name="G#"
               placeholder="?"
+              value={notaSolSost}
               id="inputGsostenido"
               onChange={(e) =>
                 checkValue(
@@ -94,8 +103,9 @@ export const Ej_Notas_Alteracionescopy = () => {
               onFocus={() => setMuestraSelector(true)}
             />
             <input
-              readOnly
+              name="A#"
               placeholder="?"
+              value={notaLaSost}
               id="inputAsostenido"
               onChange={(e) =>
                 checkValue(
@@ -110,9 +120,12 @@ export const Ej_Notas_Alteracionescopy = () => {
             />
           </div>
         </div>
+        {/* Notas Blancas */}
         <div className="NotasBlancas">
           <input
             placeholder="?"
+            name="C"
+            value={notaDo}
             id="inputC"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputC"), "C", "B#", "Dbb")
@@ -120,7 +133,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="D"
             placeholder="?"
+            value={notaRe}
             id="inputD"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputD"), "D", "Cx", "Ebb")
@@ -128,7 +143,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="E"
             placeholder="?"
+            value={notaMi}
             id="inputE"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputE"), "E", "Dx", "Fb")
@@ -136,7 +153,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="F"
             placeholder="?"
+            value={notaFa}
             id="inputF"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputF"), "F", "E#", "Gbb")
@@ -144,7 +163,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="G"
             placeholder="?"
+            value={notaSol}
             id="inputG"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputG"), "G", "Fx", "Abb")
@@ -152,7 +173,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="A"
             placeholder="?"
+            value={notaLa}
             id="inputA"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputA"), "A", "Bbb", "Gx")
@@ -160,7 +183,9 @@ export const Ej_Notas_Alteracionescopy = () => {
             onFocus={() => setMuestraSelector(true)}
           />
           <input
+            name="B"
             placeholder="?"
+            value={notaSi}
             id="inputB"
             onChange={(e) =>
               checkValue(e, document.getElementById("inputB"), "B", "Cb", "Ax")

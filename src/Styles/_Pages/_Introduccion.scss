@@ -1,8 +1,13 @@
 .Introduccion{
-    @include flexible(column, center, center, 3em, wrap);
-    padding:1em;
+    @include flexible(column, center, center, 2em, wrap);
+    padding: 1em;
+    .PartesFiguraMusical{    
+        @include flexible(row, center, center, 2em, wrap);
+    }
     .Alteraciones{
-        @include flexible(row, center, center, 1em, wrap);
-        
+        @include flexible(column, center, center, 1em, wrap);
+        .ContainerAlteraciones{
+            @include flexible(row, center, center, 3em, wrap);
+        }      
     }
 }

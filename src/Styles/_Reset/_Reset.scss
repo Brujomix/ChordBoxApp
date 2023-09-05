@@ -4,10 +4,40 @@
     margin: 0;
 }
 
+body{
+    .ImagenFigcap{
+        @include flexible(column, center, center, .5em, nowrap )
+    }
+}
+
+header{
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+section{
+    @include flexible(column, center, center, 1em, nowrap);
+    p{
+        max-width: 640px;
+        font-family: "Raleway", sans-serif;
+    }
+    img{
+        max-width: 640px;
+    }
+}
+
 figcaption{
     font-style: italic;
 }
 
 span{
     display: block;
+}
+
+ul{
+    list-style: none;
 }

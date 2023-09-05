@@ -4,7 +4,12 @@
     border: 1px solid black;
     border-radius: 8px;
     padding: 4px;
-    .ContainerNotas{
+    .ButtonPanel{
+        Button{
+            padding: 4px;
+        }
+    }
+    .ButtonNotas{
         button{
             width: 25px;
             height: 25px;
