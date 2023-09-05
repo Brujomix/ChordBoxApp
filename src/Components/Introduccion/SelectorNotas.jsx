@@ -1,7 +1,7 @@
 import React from "react";
 import ArraySelectorNotas from "./ArraySelectorNotas.json";
 
-export const SelectorNotas = ({mostrar, clickCheck, clickClose, clickNota}) => {
+export const SelectorNotas = ({mostrar, clickClose, clickNota}) => {
 
   return (
     
@@ -12,7 +12,6 @@ export const SelectorNotas = ({mostrar, clickCheck, clickClose, clickNota}) => {
         </div>
       ))}
     <div>
-      <button onClick={clickCheck}>Check</button>
       <button onClick={clickClose}>Close</button>
     </div>
     </div>
