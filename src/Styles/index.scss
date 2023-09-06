@@ -12,26 +12,42 @@
 @import "./_Reset/Reset";
 @import "./_Reset//MainLayout";
 
-/* Components */
-@import "./_Component/SelectorNotas";
-
 /* Principales */
-@import "./_Component/Footer";
-
-/* Introduccion */
-@import "./_Component/Ej_Notas_Alteraciones";
-
-/* Intervalos */
-@import "./_Component/ConstructorIntervalos";
-@import "./_Component/TablaIntervalos";
+@import "./_Principales/ModalDinamico";
+@import "./_Principales/Footer";
 
 /* Pages */
-@import "./_Pages/Home";
-@import "./_Pages/Introduccion";
-@import "./_Pages/Intervalos";
-@import "./_Pages/Modo_Mayor";
-@import "./_Pages/Modo_menor";
-@import "./_Pages/Circulo_quintas";
-@import "./_Pages/Figuras_Armonicas";
-@import "./_Pages/Modos_Griegos";
-@import "./_Pages/Tonicas_Implicitas";
+@import "./_Home/Home";
+
+/* Introduccion */
+@import "./_Introduccion/Introduccion";
+@import "./_Introduccion/Ej_Notas_Alteraciones";
+@import "./_Introduccion/SelectorNotas";
+@import "./_Introduccion/CuestionarioIntro";
+
+/* Intervalos */
+@import "./_Intervalos/Intervalos";
+@import "./_Intervalos/ConstructorIntervalos";
+@import "./_Intervalos/TablaIntervalos";
+
+/* Modo Mayor */
+@import "./_ModoMayor/Modo_Mayor";
+
+/* Modo menor */
+@import "./_ModoMenor/Modo_menor";
+
+/* Intervalos */
+@import "./_Intervalos/Intervalos";
+@import "./_Intervalos/Intervalos";
+
+/* Circulo Quintas */
+@import "./_CirculoQuintas/Circulo_quintas";
+
+/* figuras Armonicas */
+@import "./_FigurasArmonicas/Figuras_Armonicas";
+
+/* Modos Griegos */
+@import "./ModosGriegos/Modos_Griegos";
+
+/* Tonicas Implicitas */
+@import "./_TonicasImplicitas/Tonicas_Implicitas";

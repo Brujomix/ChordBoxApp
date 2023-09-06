@@ -12,10 +12,11 @@ import figurapuntillo from "../Images/introduccion/figura_puntillo.png";
 import valoresfigurasternarias from "../Images/introduccion/valores y silencios de las figuras ternarias.png";
 import { Container } from "react-bootstrap";
 import {
-  Ej_Notas_Alteraciones,
-  Ej_Notas_Alteracionescopy,
+  CuestionarioIntroduccion,
+  Ej_Notas_Alteraciones
 } from "../Components/Introduccion";
 import { SelectorNotas } from "../Components/Introduccion";
+import { ModalDinamicoTest } from "../Components/Principales";
 
 export const Introduccion = () => {
   return (
@@ -120,7 +121,7 @@ export const Introduccion = () => {
       <h4>Practiquemos:</h4>
       <section>
         <div className="ImagenFigcap">
-          <Ej_Notas_Alteracionescopy />
+          <Ej_Notas_Alteraciones />
           <SelectorNotas />
           <figcaption>Ejercicio - Identifiación de Notas</figcaption>
         </div>
@@ -192,8 +193,14 @@ export const Introduccion = () => {
         </div>
       </section>
 
-      <h4>Test Introdcuccion</h4>
-      <section>Aqui Ejercicios</section>
+      <h4>Test Introducción</h4>
+      <section>
+        <ModalDinamicoTest
+          nameLaunch={"Ejecutar Test de Conocimientos"}
+          Title={"Modulo I - Test"}
+          Body={<CuestionarioIntroduccion />}
+        />
+      </section>
     </Container>
   );
 };
