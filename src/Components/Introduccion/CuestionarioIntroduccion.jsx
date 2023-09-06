@@ -1,6 +1,6 @@
 import React from "react";
-import { Intro_PreguntaUno } from "./Intro_PreguntaUno";
-import { Intro_PreguntaDos } from "./Intro_PreguntaDos";
+import { IntroPreguntaUno } from "./IntroPreguntaUno";
+import { IntroPreguntaDos } from "./IntroPreguntaDos";
 
 export const CuestionarioIntroduccion = () => {
   return (
@@ -10,11 +10,11 @@ export const CuestionarioIntroduccion = () => {
       </header>
       <h2>Pregunta 1/10:</h2>
       <section>
-        <Intro_PreguntaUno />
+        <IntroPreguntaUno />
       </section>
       <h2>Pregunta 2/10:</h2>
       <section>
-        <Intro_PreguntaDos />
+        <IntroPreguntaDos />
       </section>
     </div>
   );

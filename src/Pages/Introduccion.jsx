@@ -13,7 +13,7 @@ import valoresfigurasternarias from "../Images/introduccion/valores y silencios 
 import { Container } from "react-bootstrap";
 import {
   CuestionarioIntroduccion,
-  Ej_Notas_Alteraciones
+  EjNotasAlteraciones
 } from "../Components/Introduccion";
 import { SelectorNotas } from "../Components/Introduccion";
 import { ModalDinamicoTest } from "../Components/Principales";
@@ -121,7 +121,7 @@ export const Introduccion = () => {
       <h4>Practiquemos:</h4>
       <section>
         <div className="ImagenFigcap">
-          <Ej_Notas_Alteraciones />
+          <EjNotasAlteraciones />
           <SelectorNotas />
           <figcaption>Ejercicio - Identifiación de Notas</figcaption>
         </div>

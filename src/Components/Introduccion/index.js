@@ -1,6 +1,6 @@
 export * from "./SelectorNotas";
-export * from "./Ej_Notas_Alteraciones";
+export * from "./EjNotasAlteraciones";
 export * from "./CuestionarioIntroduccion";
 
-export * from "./Intro_PreguntaUno";
-export * from "./Intro_PreguntaDos";
+export * from "./IntroPreguntaUno";
+export * from "./IntroPreguntaDos";

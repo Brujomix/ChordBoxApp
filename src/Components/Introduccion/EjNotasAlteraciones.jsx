@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SelectorNotas } from "./SelectorNotas";
 
-export const Ej_Notas_Alteraciones = () => {
+export const EjNotasAlteraciones = () => {
   const [muestraSelector, setMuestraSelector] = useState(false);
 
   const [notaSeleccionada, setNotaSeleccionada] = useState("");

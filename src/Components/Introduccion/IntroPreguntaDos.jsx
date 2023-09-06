@@ -1,7 +1,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 
-export const Intro_PreguntaDos = () => {
+export const IntroPreguntaDos = () => {
   return (
     <div className='Intro_PreguntaDos'>
         <h3>Escribe Cifrado Americano</h3>
