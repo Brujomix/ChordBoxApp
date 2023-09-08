@@ -11,5 +11,22 @@
             padding: 5px;
         }
     }
+    .IntroPreguntaTres{
+        .ContainerFiguras{
+            @include flexible(row,center,center,1em,wrap);
+            .CheckAlteracion{
+                @include flexible(column,center,center,1em,wrap);
+                img{
+                    width: 30px;
+                }
+            }
+            .FuncionesFiguras{
+                .checkboxtext{
+                   @include flexible(row,center,center,.5em,nowrap);
+
+               }
+            }
+        }
+    }
 
 }
